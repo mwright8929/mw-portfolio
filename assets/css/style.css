@@ -1,0 +1,100 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400px;
+  line-height: 1.8em;
+  /* color: #eee; */
+  background-color: #f0f0f0;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+/*------------------ Main Page ------------------------------*/
+
+.pimg1 {
+  background-image: url(../images/Garrett_King_2-2.jpg);
+  min-height: 100%;
+  color: #eee;
+}
+
+/*image positioning*/
+
+.pimg1 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* fixed = parallax       scroll = normal*/
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  clear: both;
+}
+
+.ptext .border1 {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+/*----------------------------------------------------------------*/
+
+.aboutSection {
+  margin: 5%;
+}
+
+.portImage {
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.introBlurb {
+  margin-top: 40px;
+}
+
+/* .iAm {
+  text-align: center;
+} */
+
+.projectSection {
+  margin-top: 5%;
+}
+
+.Title {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+.contactForms {
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.messages {
+  padding: 10px;
+}
+
+.cPhotos {
+  height: 550px;
+}
